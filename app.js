@@ -21,9 +21,9 @@ function consultaCep(){
             document.getElementById('return').innerHTML = 
             '<strong >CEP</strong>: ' + response.cep + '<br>'+
             '<strong>Endereço</strong>: ' + response.logradouro + '<br>' +
-            '<strong>BAIRRO</strong>:: ' + response.bairro + '<br>' +
+            '<strong>BAIRRO</strong>: ' + response.bairro + '<br>' +
             '<strong>CIDADE</strong>: ' + response.localidade +  '</br>' + 
-            '<strong>Estado</strong>:: ' + response.uf + '<br>' ; 
+            '<strong>Estado</strong>: ' + response.uf + '<br>' ; 
                                                         
         }
     }
